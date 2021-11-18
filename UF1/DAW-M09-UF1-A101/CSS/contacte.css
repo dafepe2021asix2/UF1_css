@@ -1,0 +1,107 @@
+html{
+    color: white;
+    background-image: url("../IMATGES/green_dust_scratch/green_dust_scratch.png");
+    font-family: roboto-regular ;
+    border: 0cm;
+    background:#5cdb95;
+
+}
+body {
+margin: 0cm;
+    
+}
+div.contenido{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div.menu_caja{
+    padding-top: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+article.caja0{
+    /*border: solid 1px #000;*/
+    margin: 5px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+form{
+    text-align: initial;
+    color: #05386B;
+
+}
+
+input[type=text], select,input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+textarea{
+    height: 300px;
+    width: 900px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #3484d4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #05386B;
+  }
+  
+  article.caja0 > div {
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(../FONTS/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../FONTS/Roboto/Roboto-Bold.ttf);
+
+}

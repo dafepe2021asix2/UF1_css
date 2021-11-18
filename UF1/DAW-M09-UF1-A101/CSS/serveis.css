@@ -1,0 +1,238 @@
+html{
+    color: white;
+    background-image: url("../IMATGES/green_dust_scratch/green_dust_scratch.png");
+    font-family: roboto-regular ;
+    border: 0cm;
+    background:#5cdb95;
+
+}
+body {
+margin: 0cm;
+    
+}
+div.contenido{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div.menu_caja{
+    padding-top: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+article.caja0{
+    /*border: solid 1px #000;*/
+    margin: 5px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}/*
+div.imatge_dreta  {
+    float: right;
+    margin-left: 40px;   
+}
+
+div.imatge_esquerra  {
+    float: left;
+    margin-right: 40px;   
+}
+
+.imatge_dreta {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+.imatge_esquerra {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 0;
+    text-align: center;    
+    background: rgba(255, 255, 255, 0.7);
+    transition: height 0.7s ease-out;    
+}
+.imatge_dreta:hover > .text {
+    height: 150px;
+}
+.imatge_esquerra:hover > .text {
+    height: 150px;
+}
+*/
+img.serveis{
+    border-radius: 35%;
+    width: 80%;
+    padding-top: 30px ;
+}
+article.caja0 > div{
+    display: flex;
+    
+}
+div.polaroid {
+    position: relative;
+    width: 30%;
+    height: 70%;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+
+    
+  }
+.text {
+    display: none;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 0;
+    color: white;
+    text-align: center;  
+    transition: height 0.4s ease;    
+}
+div.polaroid:hover > .text {
+    height: 100px;
+    color:black;
+    display: inline;
+    margin-bottom: 200px;
+}
+
+
+div.polaroid:hover {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+        width: 30%;
+    }
+  
+    to {
+        width: 70%;
+    }
+  }
+
+
+  
+  div.polaroid > div.container {
+    text-align: center;
+    color: black;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+  align-content: center;
+  flex-direction: column;
+    
+  }
+  div.container > p{
+    text-align:center; 
+    height: 50%;
+    width: 100%;
+  }
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 600px;
+}
+.card > img {
+    width: 300px;
+    height: 230px;
+
+}
+.card > h1 {
+    height: 50px;
+}
+.card > p:nth-of-type(2) {
+    height: 150px;
+  }
+.price {
+    color: grey;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+
+article.caja1 > div{
+    display: flex;
+    height: auto;
+    flex-direction: flex;
+    flex-wrap: wrap;
+}
+.element {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    margin: 5px ;
+
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../FONTS/Roboto/Roboto-Regular.ttf);
+  }
+@font-face {
+    font-family: roboto-bold;
+    src: url(../FONTS/Roboto/Roboto-Bold.ttf);
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Propietat position: static relative fixed absolute </title>
+
+<style type="text/css">
+div {
+
+  width: 100px;
+  height: 100px;
+  padding: auto;
+  margin: 10px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #34a844;
+}
+.clubs{
+  position: relative;
+  z-index:5 ;
+}
+.diamonds{
+  position: relative;
+  z-index:4 ;
+  top: -500px;
+  left: 200px;
+}
+.spades{
+  position: relative;
+  z-index:3;
+  top: -1000px;
+  left: 400px;
+}
+.hearts{
+  position: relative;
+  z-index:2;
+  top: -1500px;
+  left: 600px;
+}
+
+</style>
+</head>
+<body>
+<img class="clubs" src="poker-clubs.png">
+<img class="diamonds" src="poker-diamonds.png">
+<img class="spades" src="poker-spades.png">
+<img class="hearts" src="poker-hearts.png">
+</body>
+
+</html>
